@@ -2,7 +2,7 @@ import requests
 from comment_finder import find_target_comment
 from like_rules import calculate_target_likes
 
-API_KEY = "c849788f60dd591e636c5d079b0a8d62"
+API_KEY = "44358011a5438dfc856eebc5ca4928ee"
 PANEL_URL = "https://justanotherpanel.com/api/v2"
 SERVICE_ID = 9998
 
@@ -45,3 +45,4 @@ def process_video(video_url: str):
             "status": "error",
             "message": f"Panel request failed: {e}"
         }
+
