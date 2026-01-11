@@ -12,7 +12,7 @@ HTML = """
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Auto TikTok Comment Likes compass 9998</title>
+  <title>Auto TikTok Comment Likes JAHJA 9998</title>
   <style>
     body{font-family:system-ui;background:#0b1220;color:#e5e7eb;display:flex;justify-content:center;padding:24px}
     .card{width:100%;max-width:900px;background:#0f172a;border:1px solid #334155;border-radius:16px;padding:18px}
@@ -23,7 +23,7 @@ HTML = """
 </head>
 <body>
   <div class="card">
-    <h2>MONEY FORBIDDEN COMPASS LIKE BOT</h2>
+    <h2>JAHJA LIKE BOT</h2>
     <p>Paste TikTok video links (1 per line):</p>
     <form method="post">
       <textarea name="links">{{links}}</textarea>
@@ -59,5 +59,6 @@ def index():
 
 if __name__ == "__main__":
     app.run(debug=True)
+
 
 
